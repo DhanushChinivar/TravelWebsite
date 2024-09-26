@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceansForever - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+    <style>
+        .banner {
+            background-color: #cceeff;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #003366;
+            font-weight: 500;
+        }
+
+        .home__img {
+            position: absolute;
+            top: 60;
+            left: 0;
+            width: 100%;
+            height: 60vh;
+            object-fit: cover;
+            object-position: 83%;
+        }
+
+        .header-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .highlight {
+            color: #007bff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            font-weight: 500;
+            margin: 0 10px;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #13b3c4, #0395ba);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-icons a {
+            transition: color 0.2s;
+        }
+
+        .footer-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-light text-dark p-3">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                    <img src="image/favicon.png" alt="Logo" class="img-fluid">
+                </div>
+                <div class="col-md-8 text-center">
+                    <h1 class="header-title">Welcome to <span class="highlight">Oceans Forever</span></h1>
+                    <p class="header-subtitle">Explore The Best Beautiful Beaches</p>
+                </div>
+                <div class="col-md-2 d-flex justify-content-end align-items-center">
+                    <input type="search" placeholder="search" class="form-control me-2">
+                    <!-- <button class="btn btn-primary">Sign up</button> -->
+                    <a href="sign_up.html" class="btn btn-primary">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planyourtrip.html">Plan your Trip</a></li>
+                    <li class="nav-item"><a class="nav-link" href="traveldeals.html">Travel Deals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5">
+        <div class="container">
+            <h2 class="display-4">Discover Oceans Forever</h2>
+            <p class="lead">Your Gateway to Unforgettable Travel Destinations and Experiences</p>
+        </div>
+    </section>
+
+    <section class="home" id="home">
+        <img src="image/home1.jpg" alt="" class="home__img">
+
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Discover your place</span>
+                <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                <a href="#" class="button">Explore</a>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+
+            <div class="home__info">
+                <div>
+                    <span class="home__info-title">5 best places to visit</span>
+                    <a href="" class="button button--flex button--link home__info-button">
+                        More <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__info-overlay">
+                    <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h2>Find Things to Do</h2>
+        <p>You can find the most beautiful and pleasant places at the best prices with special discounts. You choose the
+            place, and we will guide you all the way. Get your place now.</p>
+
+        <!-- Travel Features -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/place1.jpg" class="card-img-top" alt="Bungee Jumping">
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text">Bali</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/place2.jpg" class="card-img-top" alt="Zip Line">
+                    <div class="card-body">
+                        <h5 class="card-title">Western Australia</h5>
+                        <p class="card-text">Western Australia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/place3.jpg" class="card-img-top" alt="Kayaking">
+                    <div class="card-body">
+                        <h5 class="card-title">Hawai</h5>
+                        <p class="card-text">Hawai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/place4.jpg" class="card-img-top" alt="Bungee Jumping">
+                    <div class="card-body">
+                        <h5 class="card-title">Marry Island</h5>
+                        <p class="card-text">Marry Island</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/place5.jpg" class="card-img-top" alt="Zip Line">
+                    <div class="card-body">
+                        <h5 class="card-title">california</h5>
+                        <p class="card-text">California</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/experience2.jpg" class="card-img-top" alt="Kayaking">
+                    <div class="card-body">
+                        <h5 class="card-title">Maritius </h5>
+                        <p class="card-text">Maritius</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <h5 class="text-uppercase mb-3">Oceans Forever</h5>
+                    <p class="mb-1">Experience unparalleled travel adventure and comfort with us. Book your destination
+                        and create unforgettable memories.</p>
+                    <p>&copy; 2024 Oceans Forever. All rights reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase mb-3">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="planyourtrip.html" class="text-white text-decoration-none">Plan you Trip</a></li>
+                        <li><a href="traveldeals.html" class="text-white text-decoration-none">Travel Deals</a></li>
+                        <li><a href="faq.html" class="text-white text-decoration-none">FAQ</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase mb-3">Contact Us</h5>
+                    <p class="mb-1">Email: <a href="mailto:info@oceansforver.com"
+                            class="text-white text-decoration-none">info@oceansforver.com</a></p>
+                    <p class="mb-1">Phone: +61 422 923 131</p>
+                    <div class="d-flex footer-icons">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="small mb-0">Website designed by Dhanush Chinivar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
